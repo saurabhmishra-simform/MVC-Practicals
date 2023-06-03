@@ -1,6 +1,8 @@
-namespace Practical10Task1
+using Practical10Task4.Filters;
+
+namespace Practical10Task4
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
@@ -8,6 +10,12 @@ namespace Practical10Task1
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            //Add services for exception 
+            builder.Services.AddControllersWithViews(options =>
+            {
+                options.Filters.Add<CustomExceptionAttribute>();
+            });
 
             var app = builder.Build();
 
@@ -27,14 +35,8 @@ namespace Practical10Task1
             app.UseAuthorization();
 
             app.MapControllerRoute(
-                 name: "employee",
-                 pattern: "Employee/{name?}",
-                 defaults: new { controller = "Employee", action = "Index" });
-                
-
-            app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Employee}/{action=Index}/{id?}");
+                pattern: "{controller=ExceptionHandle}/{action=Index}/{id?}");
 
             app.Run();
         }

@@ -5,9 +5,9 @@ namespace Practical10Task1.Controllers
 {
     public class EmployeeController : Controller
     {
-        public IActionResult Index(string name)
+        public IActionResult Index(string name = "Mark")
         {
-           return Content("Employee name: " + name); 
+           return View("Index",name); 
         }
     }
 }
