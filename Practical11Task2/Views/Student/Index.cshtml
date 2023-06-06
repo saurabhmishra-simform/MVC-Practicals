@@ -1,0 +1,17 @@
+﻿@model Practical11Task2.ViewModels.StudentViewModel
+@{
+    @if (Model.PageTitle == "Index")
+    {
+       await Html.RenderPartialAsync("~/views/partialview/_getallstudent.cshtml",Model.Students);
+    }
+    if (Model.PageTitle == "Create")
+    {
+       await Html.RenderPartialAsync("~/views/partialview/_Create.cshtml", Model.Student);
+    }
+    if (Model.PageTitle == "Details")
+    {
+        await Html.RenderPartialAsync("~/views/partialview/_Details.cshtml", Model.Student);
+    }
+}
+
+
