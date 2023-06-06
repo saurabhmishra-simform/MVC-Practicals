@@ -1,6 +1,6 @@
 namespace Practical10Task1
 {
-    public class Program
+    public static class Program
     {
         public static void Main(string[] args)
         {
@@ -30,7 +30,7 @@ namespace Practical10Task1
                  name: "employee",
                  pattern: "Employee/{name?}",
                  defaults: new { controller = "Employee", action = "Index" });
-                
+
 
             app.MapControllerRoute(
                 name: "default",
