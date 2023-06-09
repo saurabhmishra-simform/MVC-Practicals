@@ -1,0 +1,77 @@
+﻿@model PaginatedList<Employee>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Employee - List</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form id="SearchForm" class="d-flex" role="search">
+    <div class="col-sm-3">
+        <input type="text" class="form-control me-2" id="SearchInput" placeholder="Search By Name" />
+    </div>
+    <div class="col-sm-3">
+        <button type="submit" class="btn btn-primary ms-2">Search</button>
+    </div>
+</form>
+
+
+<div id="SearchResult">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Employee Name</th>
+                <th>DOB</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Dob)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" onclick="ConfirmDelete(@item.Id); return false;">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<ul class="pagination justify-content-end">
+    @if (Model.HasPreviousPage)
+    {
+        <li class="page-item"><a href="@Url.Action("Index", new { page = Model.PageIndex - 1 })" class="page-link">Previous </a></li>
+    }
+    @for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        <li class="page-item"><a href="@Url.Action("Index", new { page = i })" class="page-link"> @i </a></li>
+    }
+    @if (Model.HasNextPage)
+    {
+        <li class="page-item"><a href="@Url.Action("Index", new { page = Model.PageIndex + 1 })" class="page-link"> Next</a></li>
+    }
+</ul>
+
+
+
+
