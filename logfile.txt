@@ -1,0 +1,28 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-06-22 04:53:23
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-06-22 04:53:23 ::1 GET / - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 - 500 19 5 2329
+2023-06-22 04:53:23 ::1 GET /favicon.ico - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/ 500 19 5 0
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-06-22 04:55:52
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-06-22 04:55:52 ::1 GET / - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 - 500 19 13 101
+2023-06-22 04:55:52 ::1 GET /favicon.ico - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/ 500 19 13 0
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2023-06-22 05:01:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2023-06-22 05:01:29 ::1 GET / - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 - 302 0 0 3332
+2023-06-22 05:01:29 ::1 GET /Account/Login ReturnUrl=%2F 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 - 200 0 0 360
+2023-06-22 05:01:29 ::1 GET /Practical19MVC.styles.css v=ELdeectBYkFotdcI0KHBVSJF0Cj4UMWAEfxDi0UtjjA 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 3
+2023-06-22 05:01:29 ::1 GET /css/site.css v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 4
+2023-06-22 05:01:29 ::1 GET /js/site.js v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 3
+2023-06-22 05:01:29 ::1 GET /lib/bootstrap/dist/css/bootstrap.min.css - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 17
+2023-06-22 05:01:29 ::1 GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 29
+2023-06-22 05:01:29 ::1 GET /lib/jquery/dist/jquery.min.js - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 51
+2023-06-22 05:01:29 ::1 GET /favicon.ico - 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 7
+2023-06-22 05:03:40 ::1 POST /Account/Login ReturnUrl=%2F 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 302 0 0 4205
+2023-06-22 05:03:40 ::1 GET /Account/Login ReturnUrl=%2FHome%2FError%3FReturnUrl%3D%252F 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2F 200 0 0 3
+2023-06-22 05:03:40 ::1 GET /Practical19MVC.styles.css v=ELdeectBYkFotdcI0KHBVSJF0Cj4UMWAEfxDi0UtjjA 90 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/114.0.0.0+Safari/537.36 http://localhost:90/Account/Login?ReturnUrl=%2FHome%2FError%3FReturnUrl%3D%252F 304 0 0 12
