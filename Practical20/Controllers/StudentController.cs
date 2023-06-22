@@ -12,6 +12,7 @@ namespace Practical20.Controllers
         public StudentController(IStudentService studentService, ILogger<StudentController> logger)
         {
             _studentService = studentService;
+            _logger = logger;
         }
 
         
@@ -22,7 +23,7 @@ namespace Practical20.Controllers
         }
         public async Task<ActionResult> AddStudent(int id)
         {
-            if(id!= null)
+            if(id != null)
             {
                 var student = await _studentService.GetStudentbyId(id);
                 return View(student);

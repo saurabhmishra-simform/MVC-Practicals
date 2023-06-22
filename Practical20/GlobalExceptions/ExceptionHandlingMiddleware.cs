@@ -5,7 +5,7 @@ namespace Practical20.GlobalExceptions
 {
     public class ExceptionHandlingMiddleware  
     {
-        public RequestDelegate requestDelegate;
+        private readonly RequestDelegate requestDelegate;
         private readonly ILogger<ExceptionHandlingMiddleware> logger;
         public ExceptionHandlingMiddleware(RequestDelegate requestDelegate, ILogger<ExceptionHandlingMiddleware> logger)
         {

@@ -17,11 +17,15 @@ Log.Logger = loggerConfiguration
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
 builder.Services.AddTransient(typeof(IStudentService), typeof(StudentService));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,8 +37,11 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseSerilogRequestLogging();
+
 app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
+
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
