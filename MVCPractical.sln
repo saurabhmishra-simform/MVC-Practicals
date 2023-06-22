@@ -17,6 +17,11 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Practical19MVC", "Practical
 		IORedirection = Auto
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogFIles", "LogFIles", "{AB7C6BD6-E10E-4AE1-AB26-B55B4C164808}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\inetpub\logs\LogFiles\W3SVC2\u_ex230622.log = ..\..\..\..\..\..\inetpub\logs\LogFiles\W3SVC2\u_ex230622.log
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
