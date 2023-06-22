@@ -1,0 +1,73 @@
+22-Jun-2023 15:50:27.683 +05:30 [INF] HTTP GET / responded 200 in 209.6135 ms
+22-Jun-2023 15:50:27.794 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 36.1059 ms
+22-Jun-2023 15:50:27.833 +05:30 [INF] HTTP GET /css/site.css responded 200 in 75.8805 ms
+22-Jun-2023 15:50:27.833 +05:30 [INF] HTTP GET /js/site.js responded 200 in 75.9002 ms
+22-Jun-2023 15:50:27.849 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 91.0450 ms
+22-Jun-2023 15:50:27.858 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 99.3180 ms
+22-Jun-2023 15:50:27.891 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 133.3415 ms
+22-Jun-2023 15:50:27.924 +05:30 [INF] HTTP GET /favicon.ico responded 200 in 2.7733 ms
+22-Jun-2023 15:50:44.687 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 740.8411 ms
+22-Jun-2023 15:50:44.704 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 1.0582 ms
+22-Jun-2023 15:50:44.704 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1353 ms
+22-Jun-2023 15:50:46.359 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 166.6924 ms
+22-Jun-2023 15:50:46.370 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.5609 ms
+22-Jun-2023 15:50:46.373 +05:30 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 3.1483 ms
+22-Jun-2023 15:50:46.397 +05:30 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 27.6151 ms
+22-Jun-2023 15:51:01.271 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 24.8326 ms
+22-Jun-2023 15:51:01.281 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3683 ms
+22-Jun-2023 15:51:05.867 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 7.9160 ms
+22-Jun-2023 15:51:05.877 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4498 ms
+22-Jun-2023 15:51:12.192 +05:30 [INF] HTTP POST /Student/AddStudent responded 200 in 4.0103 ms
+22-Jun-2023 15:51:12.204 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.5693 ms
+22-Jun-2023 15:51:48.268 +05:30 [INF] HTTP GET / responded 200 in 155.1457 ms
+22-Jun-2023 15:51:48.325 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.9072 ms
+22-Jun-2023 15:51:50.529 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 581.8065 ms
+22-Jun-2023 15:51:50.540 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3558 ms
+22-Jun-2023 15:51:50.540 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3947 ms
+22-Jun-2023 15:51:55.763 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 4481.2411 ms
+22-Jun-2023 15:51:55.774 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2481 ms
+22-Jun-2023 15:52:37.408 +05:30 [INF] HTTP GET / responded 200 in 151.2821 ms
+22-Jun-2023 15:52:37.464 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.8761 ms
+22-Jun-2023 15:52:39.130 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 591.2517 ms
+22-Jun-2023 15:52:39.141 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1697 ms
+22-Jun-2023 15:52:39.141 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.2654 ms
+22-Jun-2023 15:52:42.951 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 3110.9295 ms
+22-Jun-2023 15:52:42.962 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.2388 ms
+22-Jun-2023 15:54:22.881 +05:30 [INF] HTTP GET / responded 200 in 154.9615 ms
+22-Jun-2023 15:54:22.935 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.6530 ms
+22-Jun-2023 15:54:26.232 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 590.0745 ms
+22-Jun-2023 15:54:26.244 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3507 ms
+22-Jun-2023 15:54:26.244 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.4411 ms
+22-Jun-2023 15:54:28.753 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 1599.9005 ms
+22-Jun-2023 15:54:28.764 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1942 ms
+22-Jun-2023 15:55:11.108 +05:30 [INF] HTTP POST /Student/AddStudent responded 302 in 16740.5542 ms
+22-Jun-2023 15:55:11.216 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 87.2861 ms
+22-Jun-2023 15:55:11.233 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 7.6232 ms
+22-Jun-2023 15:55:13.012 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 1786.2904 ms
+22-Jun-2023 15:55:36.802 +05:30 [INF] HTTP GET /Student/AddStudent/1 responded 200 in 3016.2107 ms
+22-Jun-2023 15:55:36.815 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3007 ms
+22-Jun-2023 15:55:45.468 +05:30 [INF] HTTP POST /Student/AddStudent/1 responded 302 in 2262.8259 ms
+22-Jun-2023 15:55:45.476 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 5.0851 ms
+22-Jun-2023 15:55:45.488 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1983 ms
+22-Jun-2023 15:55:45.489 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3789 ms
+22-Jun-2023 15:55:49.267 +05:30 [INF] HTTP GET /Student/DeleteStudent/1 responded 302 in 9.7739 ms
+22-Jun-2023 15:55:49.281 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 10.8823 ms
+22-Jun-2023 15:55:49.284 +05:30 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Students]
+OUTPUT 1
+WHERE [StudentId] = @p0;
+22-Jun-2023 15:55:49.684 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3661 ms
+22-Jun-2023 15:55:49.684 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.2888 ms
+22-Jun-2023 16:22:31.445 +05:30 [INF] HTTP GET / responded 200 in 158.5756 ms
+22-Jun-2023 16:22:31.502 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 1.6000 ms
+22-Jun-2023 16:22:38.496 +05:30 [INF] HTTP GET /Student/AddStudent responded 200 in 709.7529 ms
+22-Jun-2023 16:22:38.508 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.1871 ms
+22-Jun-2023 16:22:43.368 +05:30 [INF] HTTP POST /Student/AddStudent responded 302 in 188.8983 ms
+22-Jun-2023 16:22:43.407 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 35.1417 ms
+22-Jun-2023 16:22:43.416 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.3481 ms
+22-Jun-2023 16:22:43.416 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.3751 ms
+22-Jun-2023 16:22:44.765 +05:30 [INF] HTTP GET /Student/GetAllStudents responded 200 in 6.5626 ms
+22-Jun-2023 16:22:44.779 +05:30 [INF] HTTP GET /js/student-ajax.js responded 404 in 0.5110 ms
+22-Jun-2023 16:22:44.779 +05:30 [INF] HTTP GET /Practical_20.styles.css responded 404 in 0.4424 ms
