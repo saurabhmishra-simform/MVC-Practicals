@@ -23,7 +23,7 @@ namespace Practical18.Controllers
             var student = _studentService.GetAllStudents();
             return Ok(student);
         }
-        [HttpGet("{id}")]
+        [HttpGet("ShowSingleStudent/{id}")]
         public IActionResult ShowSingleStudent(int? id)
         {
             var student = _studentService.GetSingleStudent(id);
